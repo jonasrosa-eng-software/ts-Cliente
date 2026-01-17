@@ -1,5 +1,6 @@
 /* src/themes/ocean.css */
-@layer base {
+@layer theme {
+  
   /* Ocean Light */
   [data-theme="ocean"] {
     color-scheme: light;
@@ -9,6 +10,7 @@
     --black: oklch(0% 0 0);
     --snow: oklch(0.9911 0 0);
     --eclipse: oklch(0.2103 0.0059 285.89);
+    --primary : oklch(65.6% 0.241 354.308);
 
     /* Spacing & Layout */
     --spacing: 0.25rem;
@@ -82,7 +84,10 @@
 
     /* Skeleton Default Global Animation */
     --skeleton-animation: shimmer; /* Possible values: shimmer, pulse, none */
+
+    
   }
+
 
   /* Ocean Dark */
   [data-theme="ocean-dark"] {
@@ -140,3 +145,4 @@
     --field-shadow: 0 0 0 0 transparent inset;
   }
 }
+
